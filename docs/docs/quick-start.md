@@ -23,13 +23,13 @@ npm install -g gatsby-cli
 ### Yeni bir site oluşturun
 
 ```shell
-gatsby new gatsby-sitesi
+gatsby new gatsby-site
 ```
 
 ### Sitenin bulunduğu klasöre geçin
 
 ```shell
-cd gatsby-sitesi
+cd gatsby-site
 ```
 
 ### Geliştirme sunucusunu başlatın
