@@ -1,15 +1,14 @@
 
-# Gatsby Turkish Translation
+# Gatsby Türkçe Çevirisi
 
-This repo contains the Turkish translation for Gatsby.
+Bu depo, Gatsby Türkçe çeviri içeriklerini barındırır.
 
-Please refer to the [Translation Progress Issue](https://github.com/gatsbyjs/gatsby-tr/issues/1) to start translating!
+Lütfen çeviriye başlamadan önce okuyunuz; [Translation Progress Issue](https://github.com/gatsbyjs/gatsby-tr/issues/1)
 
-Useful Links:
+Faydalı linkler:
 
-* [Style Guide](/style-guide.md)
-* [Gatsby Translation Guide](https://www.gatsbyjs.org/contributing/gatsby-docs-translation-guide/)
+* [Yazma Stili Rehberi](/style-guide.md)
+* [Gatsby Çeviri Rehberi](https://www.gatsbyjs.org/contributing/gatsby-docs-translation-guide/)
 * [Gatsby Discord](https://gatsby.dev/discord)
 
-(Feel free to translate this document and add any content you feel would be useful to contributors).
   
