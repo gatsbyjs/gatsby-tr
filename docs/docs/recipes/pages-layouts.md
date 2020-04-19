@@ -72,19 +72,19 @@ export default AboutPage
 
 - [Sayfaları oluşturma ve değiştirme](/docs/creating-and-modifying-pages/)
 
-## Linking between pages
+## Sayfalar arasında bağlantı oluşturma
 
-Routing in Gatsby relies on the `<Link />` component.
+Gatsby'de yönlendirme (routing) `<Link />` bileşenine dayanır.
 
-### Prerequisites
+### Ön şartlar
 
-- A Gatsby site with two page components: `index.js` and `contact.js`
-- The Gatsby `<Link />` component
-- The [Gatsby CLI](/docs/gatsby-cli/) to run `gatsby develop`
+- İki tane sayfa bileşenli bir Gatsby sitesi: `index.js` ve `contact.js`
+- Gatsby'nin `<Link />` bileşeni
+- `gatsby develop` komutunu çalıştırmak için [Gatsby CLI](/docs/gatsby-cli/)
 
-### Directions
+### Talimatlar
 
-1. Open the index page component (`src/pages/index.js`), import the `<Link />` component from Gatsby, add a `<Link />` component above the header, and give it a `to` property with the value of `"/contact/"` for the pathname:
+1. index sayfası bileşenini açın (`src/pages/index.js`), `<Link />` bileşenini Gatsby'den içe aktarın, başlığın üstüne bir `<Link />` bileşeni ekleyin, ve yol adı için `"/contact/"` değerine sahip bir `to` özelliği verin:
 
 ```jsx:title=src/pages/index.js
 import React from "react"
@@ -92,15 +92,15 @@ import { Link } from "gatsby"
 
 export default () => (
   <div style={{ color: `purple` }}>
-    <Link to="/contact/">Contact</Link>
-    <p>What a world.</p>
+    <Link to="/contact/">İletişim</Link>
+    <p>Ne dünya ama.</p>
   </div>
 )
 ```
 
-2. Run `gatsby develop` and navigate to the index page. You should have a link that takes you to the contact page when clicked!
+2. `gatsby develop` komutunu çalıştırın ve index sayfasına gidin. Tıklandığında sizi iletişim (`/contact`) sayfasına götüren bir bağlantınız olmalı!
 
-> **Note**: Gatsby's `<Link />` component is a wrapper around [`@reach/router`'s Link component](https://reach.tech/router/api/Link). For more information about Gatsby's `<Link />` component, consult the [API reference for `<Link />`](/docs/gatsby-link/).
+> **Not**: Gatsby'nin `<Link />` bileşeni, [`@reach/router`'s Link bileşeni](https://reach.tech/router/api/Link) için bir sarmalayıcıdır. Gatsby'nin `<Link />` bileşeni hakkında daha fazla bilgi için, buraya danışabilirsiniz: [`<Link />` için API referansı](/docs/gatsby-link/).
 
 ## Creating a layout component
 
