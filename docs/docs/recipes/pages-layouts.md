@@ -1,13 +1,13 @@
 ---
-title: "Recipes: Pages and Layouts"
+title: "Tarifler: Sayfalar ve Yerleşimler (Layouts)"
 tableOfContentsDepth: 1
 ---
 
-Add pages to your Gatsby site, and use layouts to manage common page elements.
+Gatsby sitenize sayfalar ekleyin ve ortak sayfa öğelerini yönetmek için yerleşimleri kullanın.
 
-## Project structure
+## Proje yapısı
 
-Inside a Gatsby project, you may see some or all of the following folders and files:
+Bir Gatsby projesinin içinde, aşağıdaki klasör ve dosyaların bazılarını veya tümünü görebilirsiniz:
 
 ```
 |-- /.cache
@@ -24,18 +24,18 @@ Inside a Gatsby project, you may see some or all of the following folders and fi
 |-- gatsby-browser.js
 ```
 
-Some notable files and their definitions:
+Bazı önemli dosyalar ve tanımları:
 
-- `gatsby-config.js` — configure options for a Gatsby site, with metadata for project title, description, plugins, etc.
-- `gatsby-node.js` — implement Gatsby’s Node.js APIs to customize and extend default settings affecting the build process
-- `gatsby-browser.js` — customize and extend default settings affecting the browser, using Gatsby’s browser APIs
-- `gatsby-ssr.js` — use Gatsby’s server-side rendering APIs to customize default settings affecting server-side rendering
+- `gatsby-config.js` — proje başlığı, açıklama, eklentiler vb. için meta verilerle, bir Gatsby sitesinin seçeneklerini yapılandırma
+- `gatsby-node.js` — build etme işlemini etkileyen varsayılan ayarları özelleştirmek ve genişletmek için Gatsby’nin Node.js API'lerini uygulama
+- `gatsby-browser.js` — Gatsby’nin tarayıcı API'lerini kullanarak tarayıcıyı etkileyen varsayılan ayarları özelleştirme ve genişletme
+- `gatsby-ssr.js` — sunucu tarafı render etmeyi etkileyen varsayılan ayarları özelleştirmek için Gatsby’nin sunucu tarafı render etme API'lerini kullanma
 
-### Additional resources
+### Ek kaynaklar
 
-- For a tour of all the common folders and files, read the docs on [Gatsby's Project Structure](/docs/gatsby-project-structure/)
-- For common commands, check out the [Gatsby CLI docs](/docs/gatsby-cli)
-- Check out the [Gatsby Cheat Sheet](/docs/cheat-sheet/) for downloadable info at a glance
+- Tüm ortak klasör ve dosyalar'da bir tur için [Gatsby'nin Proje Yapısı](/docs/gatsby-project-structure/) üzerindeki dokümanları okuyun
+- Genel komutlar için, [Gatsby CLI dokümanları](/docs/gatsby-cli) 'nı kontrol edin
+- İndirilebilir bir bakışta bilgi için [Gatsby Cheat Sheet](/docs/cheat-sheet/) sayfasına göz atın
 
 ## Creating pages automatically
 
