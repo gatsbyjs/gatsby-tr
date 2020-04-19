@@ -50,7 +50,7 @@ Gatsby çekirdeği (core), otomatik olarak `src/pages` içindeki React bileşenl
 ### Talimatlar
 
 1. Sitenizde eğer yoksa `src/pages` için bir dizin oluşturun.
-2. Sayfalar dizinine bir bileşen dosyası ekleyin (about.js):
+2. Sayfalar dizinine bir bileşen dosyası ekleyin (`about.js`):
 
 ```jsx:title=src/pages/about.js
 import React from "react"
@@ -102,17 +102,17 @@ export default () => (
 
 > **Not**: Gatsby'nin `<Link />` bileşeni, [`@reach/router`'s Link bileşeni](https://reach.tech/router/api/Link) için bir sarmalayıcıdır. Gatsby'nin `<Link />` bileşeni hakkında daha fazla bilgi için, buraya danışabilirsiniz: [`<Link />` için API referansı](/docs/gatsby-link/).
 
-## Creating a layout component
+## Bir yerleşim (layout) bileşeni oluşturma
 
-It's common to wrap pages with a React layout component, which makes it possible to share markup, styles, and functionality across multiple pages.
+Biçimlendirme, stil ve işlevselliği birden çok sayfada paylaşmayı mümkün kılan bir React yerleşim bileşeniyle sayfaları sarmak yaygındır.
 
-### Prerequisites
+### Ön şartlar
 
-- [A Gatsby Site](/docs/quick-start/)
+- Bir [Gatsby sitesi](/docs/quick-start/)
 
-### Directions
+### Talimatlar
 
-1. Create a layout component in `src/components`, where child components will be passed in as props:
+1. Alt bileşenlerin prop'lar olarak aktarılacağı `src/components` içinde, bir yerleşim bileşeni oluşturun (`layout.js`):
 
 ```jsx:title=src/components/layout.js
 import React from "react"
@@ -124,7 +124,7 @@ export default ({ children }) => (
 )
 ```
 
-2. Import and use the layout component in a page:
+2. Bir sayfada yerleşim bileşenini içe aktarın ve kullanın:
 
 ```jsx:title=src/pages/index.js
 import React from "react"
@@ -133,16 +133,16 @@ import Layout from "../components/layout"
 
 export default () => (
   <Layout>
-    <Link to="/contact/">Contact</Link>
-    <p>What a world.</p>
+    <Link to="/contact/">İletişim</Link>
+    <p>Ne dünya ama.</p>
   </Layout>
 )
 ```
 
-### Additional resources
+### Ek kaynaklar
 
-- Create a layout component in [tutorial part three](/tutorial/part-three/#your-first-layout-component)
-- Styling with [Layout Components](/docs/layout-components/)
+- [Öğretici - bölüm üç](/tutorial/part-three/#your-first-layout-component) 'te, bir yerleşim bileşeni oluşturun
+- [Yerleşim Bileşenleri](/docs/layout-components/) ile şekillendirme
 
 ## Creating pages programmatically with createPage
 
