@@ -144,18 +144,18 @@ export default () => (
 - [Öğretici - bölüm üç](/tutorial/part-three/#your-first-layout-component) 'te, bir yerleşim bileşeni oluşturun
 - [Yerleşim Bileşenleri](/docs/layout-components/) ile şekillendirme
 
-## Creating pages programmatically with createPage
+## createPage ile programlanabilir bir biçimde sayfalar oluşturma
 
-You can create pages programmatically in the `gatsby-node.js` file with helper methods Gatsby provides.
+Gatsby'nin sağladığı yardımcı metodlarla, `gatsby-node.js` dosyasında programlanabilir bir biçimde sayfalar oluşturabilirsiniz.
 
-### Prerequisites
+### Ön şartlar
 
-- A [Gatsby site](/docs/quick-start)
-- A `gatsby-node.js` file
+- Bir [Gatsby sitesi](/docs/quick-start)
+- Bir `gatsby-node.js` dosyası
 
-### Directions
+### Talimatlar
 
-1. In `gatsby-node.js`, add an export for `createPages`
+1. `gatsby-node.js` içinde, `createPages` için bir dışa aktarım (export) ekleyin
 
 ```javascript:title=gatsby-node.js
 // highlight-start
@@ -165,7 +165,7 @@ exports.createPages = ({ actions }) => {
 // highlight-end
 ```
 
-2. Destructure the `createPage` action from the available actions so it can be called by itself, and add or get data
+2. `createPage` aksiyonunu `actions` içinden alın, ve veri ekleyin veya alın
 
 ```javascript:title=gatsby-node.js
 exports.createPages = ({ actions }) => {
@@ -186,7 +186,7 @@ exports.createPages = ({ actions }) => {
 }
 ```
 
-3. Loop through the data in `gatsby-node.js` and provide the path, template, and context (data that will be passed in the props' pageContext) to `createPage` for each invocation
+3. `gatsby-node.js` içindeki veriler arasında dolaşın ve yolu, şablonu ve bağlamı (sayfaya pageContext prop'u olarak iletilecek veriler) `createPage`'e her iterasyonda sağlayın
 
 ```javascript:title=gatsby-node.js
 exports.createPages = ({ actions }) => {
@@ -214,7 +214,7 @@ exports.createPages = ({ actions }) => {
 }
 ```
 
-4. Create a React component to serve as the template for your page that was used in `createPage`
+4. Sayfanız için, `createPage` içinde kullanılan şablon olarak işlev görmek üzere bir React bileşeni oluşturun
 
 ```jsx:title=src/templates/dog-template.js
 import React from "react"
@@ -226,10 +226,10 @@ export default ({ pageContext: { dog } }) => (
 )
 ```
 
-5. Run `gatsby develop` and navigate to the path of one of the pages you created (like at `http://localhost:8000/Fido`) to see the data you passed it displayed on the page
+5. `gatsby develop` komutunu çalıştırın ve geçirdiğiniz verileri görmek için oluşturduğunuz sayfalardan birinin yoluna gidin (`http://localhost:8000/Fido` gibi)
 
-### Additional resources
+### Ek kaynaklar
 
-- Tutorial section on [programmatically creating pages from data](/tutorial/part-seven/)
-- Reference guide on [using Gatsby without GraphQL](/docs/using-gatsby-without-graphql/)
-- [Example repo](https://github.com/gatsbyjs/gatsby/tree/master/examples/recipe-createPage) for this recipe
+- Eğitim bölümü: [programlanabilir bir biçimde verilerden sayfa oluşturma](/tutorial/part-seven/)
+- Referans kılavuzu: [GraphQL olmadan Gatsby kullanımı](/docs/using-gatsby-without-graphql/)
+- Bu tarif için [örnek repo](https://github.com/gatsbyjs/gatsby/tree/master/examples/recipe-createPage)
