@@ -37,40 +37,40 @@ Bazı önemli dosyalar ve tanımları:
 - Genel komutlar için, [Gatsby CLI dokümanları](/docs/gatsby-cli) 'nı kontrol edin
 - İndirilebilir bir bakışta bilgi için [Gatsby Cheat Sheet](/docs/cheat-sheet/) sayfasına göz atın
 
-## Creating pages automatically
+## Sayfaları otomatik olarak oluşturma
 
-Gatsby core automatically turns React components in `src/pages` into pages with URLs.
-For example, components at `src/pages/index.js` and `src/pages/about.js` would automatically create pages from those filenames for the site's index page (`/`) and `/about`.
+Gatsby çekirdeği (core), otomatik olarak `src/pages` içindeki React bileşenlerini, URL'i olan sayfalara dönüştürür.
+Örneğin, `src/pages/index.js` ve `src/pages/about.js` adresindeki bileşenler, otomatik olarak sitenin dizin sayfası (`/`) ve `/about` için, bu dosya adlarından sayfalar oluşturur.
 
-### Prerequisites
+### Ön şartlar
 
-- A [Gatsby site](/docs/quick-start)
-- The [Gatsby CLI](/docs/gatsby-cli) installed
+- Bir [Gatsby sitesi](/docs/quick-start)
+- Kurulmuş [Gatsby CLI](/docs/gatsby-cli)
 
-### Directions
+### Talimatlar
 
-1. Create a directory for `src/pages` if your site doesn't already have one.
-2. Add a component file to the pages directory:
+1. Sitenizde eğer yoksa `src/pages` için bir dizin oluşturun.
+2. Sayfalar dizinine bir bileşen dosyası ekleyin (about.js):
 
 ```jsx:title=src/pages/about.js
 import React from "react"
 
 const AboutPage = () => (
   <main>
-    <h1>About the Author</h1>
-    <p>Welcome to my Gatsby site.</p>
+    <h1>Yazar Hakkında</h1>
+    <p>Gatsby siteme hoş geldiniz.</p>
   </main>
 )
 
 export default AboutPage
 ```
 
-3. Run `gatsby develop` to start the development server.
-4. Visit your new page in the browser: `http://localhost:8000/about`
+3. Geliştirme sunucusunu başlatmak için, proje dizininde `gatsby develop` komutunu çalıştırın.
+4. Tarayıcıda yeni sayfanızı ziyaret edin: `http://localhost:8000/about`
 
-### Additional resources
+### Ek kaynaklar
 
-- [Creating and modifying pages](/docs/creating-and-modifying-pages/)
+- [Sayfaları oluşturma ve değiştirme](/docs/creating-and-modifying-pages/)
 
 ## Linking between pages
 
