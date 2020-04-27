@@ -165,7 +165,7 @@ exports.createPages = ({ actions }) => {
 // highlight-end
 ```
 
-2. `createPage` aksiyonunu `actions` içinden alın, ve veri ekleyin veya alın
+2. Kendi başına çağırabilmek için `createPage` aksiyonunu `actions` parametresi içinden alın, ve veri ekleyin veya alın
 
 ```javascript:title=gatsby-node.js
 exports.createPages = ({ actions }) => {
