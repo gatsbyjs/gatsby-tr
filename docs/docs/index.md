@@ -4,14 +4,13 @@ description: The one stop location for tutorials, guides, and information about 
 disableTableOfContents: true
 ---
 
-Gatsby React tabanlı oldukça hızlı bir modern site oluşturucusudur.
+Gatsby, React tabanlı oldukça hızlı bir modern site oluşturucusudur.
 
 ## Başlarken
 
-Gatsby'ye başlamanın 2 yolu var:
+Gatsby'ye başlamanın iki ana yolu vardır:
 
 1. [Eğitim](/tutorial/): Adım adım talimatları izleyerek sıfırdan Gatsby kurulumu yaparak bir proje oluşturun: Daha önce hiç Gatsby ya da web geliştirme deneyimi olmayan, ancak her beceri seviyesindeki yazılımcılara da yardımcı olur.
-
 2. [Hızlı Başlangıç](/docs/quick-start): Gatsby kurulumunun ve bir proje oluşturmanın tek sayfada özetlenmiş halidir.
 
 ## Daha İlerisi
