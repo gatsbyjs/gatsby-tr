@@ -4,31 +4,31 @@ description: The one stop location for tutorials, guides, and information about 
 disableTableOfContents: true
 ---
 
-Gatsby is a blazing fast modern site generator for React.
+Gatsby, React tabanlı oldukça hızlı bir modern site oluşturucusudur.
 
-## Get Started
+## Başlarken
 
-There are two main ways to get started with Gatsby:
+Gatsby'ye başlamanın iki ana yolu vardır:
 
-1. [Tutorial](/tutorial/): Step-by-step instructions on how to install Gatsby and start a project: written for people without Gatsby or web development experience, though these learning resources have helped developers of all skill levels.
-2. [Quick start](/docs/quick-start): One page summary of how to install Gatsby and start a new project.
+1. [Eğitim](/tutorial/): Adım adım talimatları izleyerek sıfırdan Gatsby kurulumu yaparak bir proje oluşturun: Daha önce hiç Gatsby ya da web geliştirme deneyimi olmayan, ancak her beceri seviyesindeki yazılımcılara da yardımcı olur.
+2. [Hızlı Başlangıç](/docs/quick-start): Gatsby kurulumunun ve bir proje oluşturmanın tek sayfada özetlenmiş halidir.
 
-## Go further
+## Daha İlerisi
 
-1. [Recipes](/docs/recipes/): Find some quick answers for how to accomplish some specific, common tasks with Gatsby.
-2. Choose your own adventure and peruse the various sections of the Gatsby docs:
+1. [Tarifler](/docs/recipes/): Gatsby'deki belirli konulardaki ortak sorunların çözümlerine ilişkin hızlı yanıtları bulun.
+2. Kendi yönteminizi seçin ve Gatsby dokümantasyonunun farklı bölümlerini keşfedin. 
 
-   - [Reference Guides](/docs/guides/): Learn about the many different topics around building with Gatsby, like sourcing data, deployment, and more.
-   - [Gatsby API Reference](/docs/api-reference/): Learn more about Gatsby APIs and configuration.
-   - [Releases & Migration](/docs/releases-and-migration/): Find release notes and guides for migration between major versions.
-   - [Conceptual Guide](/docs/conceptual-guide/): Read high-level overviews of the Gatsby approach.
-   - [Gatsby Internals](/docs/gatsby-internals/): Dig into how Gatsby works behind the scenes.
-   - [Using Gatsby Professionally](/docs/using-gatsby-professionally/): Learn tips and tricks for how to explain Gatsby to others at work, so that you have more opportunities to work with Gatsby professionally.
+   - [Referans Rehberi](/docs/guides/): Gatsby ile verilerin kullanımı, yayınlanması ve bunun gibi daha pek çok konuyu öğrenin. 
+   - [Gatsby API Referansı](/docs/api-reference/): Gatsby API ve ayarları hakkında daha fazla şey öğrenin.
+   - [Releases & Migration](/docs/releases-and-migration/): Versiyonlar arasındaki değişiklikleri ve notları inceleyin.
+   - [Kavramsal Rehber](/docs/conceptual-guide/): Gatsby yaklaşımına dair ileri düzey analizleri okuyun.
+   - [Gatsby Internals](/docs/gatsby-internals/): Gatsby'nin arka tarafta nasıl çalıştığını derinlemesine inceleyin.
+   - [Gatsby'nin Profesyonelce Kullanımı](/docs/using-gatsby-professionally/): Gatsby'yi iş hayatınızda nasıl kulllancağınıza ve iş arkadaşlarınıza Gatsby'yi nasıl açıklayacağınıza, profesyonelce kullanarak elde edeceğiniz fırsatlara dair ipuçları öğrenin.
 
-3. Check out the [Ecosystem](/ecosystem/) libraries for Gatsby starters and plugins, as well as external community resources.
+3. Topluluk kaynaklarının yanı sıra, Gatsby başlangıç paketleri ve eklentileri için [Ekosistem](/ecosystem/) kütüphanelerine göz atın.
 
-## Start contributing
+## Katıda Bulunmaya Başla
 
-Visit the [Contributing](/contributing/) section to find guides on the Gatsby community, code of conduct, and how to get started contributing to Gatsby.
+[Katkıda Bulunma](/contributing/) bölümünü ziyaret ederek, Gatsby topluluğundaki rehberleri, kod yapısını ve nasıl katkı sağlayacağınızı öğrenin.
 
 <EmailCaptureForm signupMessage="Want to keep up with the latest tips &amp; tricks? Subscribe to our newsletter!" />
